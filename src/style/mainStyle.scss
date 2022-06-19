@@ -1,0 +1,58 @@
+.tree-segment{
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow: auto;
+}
+.tree-name-tab{
+  font-family: cursive;
+}
+.ui.top.attached.segment.tree-segment{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(78, 56, 56, 0.02);
+}
+.tree-list{
+  text-align: initial;
+  width: max-content;
+  font-size: 1.5rem !important;
+  .item{
+    cursor: pointer;
+    display: flex !important;
+    .icon-action{
+      visibility: hidden;
+      margin-left: 7px;
+    }
+    .header{
+      font-family: cursive !important;
+    }
+    .header:hover{
+      .icon-action{
+        visibility: visible;
+      }
+    }
+    .folder{
+      position: relative;
+      .label{
+        position: absolute;
+        bottom: 40%;
+        left: 55%
+      }
+    }
+  }
+}
+
+.input-category-name {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  font-family: cursive;
+  margin-left: 1.2rem
+}
+.input-tree-name {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  font-family: cursive;
+  margin-left: 1.2rem
+}
+.input-category-name:focus {
+  border-color: green
+}
